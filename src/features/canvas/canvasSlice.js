@@ -1,5 +1,4 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import Opacity from "./Opacity";
 import { fetchRandomColor } from "./canvasAPI";
 
 const initialState = {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { changeOpacity, selectOpacity } from "./canvasSlice";
 import styles from "./Canvas.module.css";
